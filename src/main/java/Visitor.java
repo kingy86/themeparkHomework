@@ -18,7 +18,7 @@ public class Visitor {
         return height;
     }
 
-    public double hasMoney(){
+    public double moneyCount(){
         return money;
     }
 }

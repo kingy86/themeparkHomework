@@ -17,4 +17,9 @@ public class IceCreamStallTest {
     public void hasName(){
         assertEquals("Mr Whip", iceCreamStall.getName());
     }
+
+    @Test
+    public void hasRating(){
+        assertEquals(6, iceCreamStall.getRating());
+    }
 }

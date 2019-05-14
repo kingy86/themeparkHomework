@@ -16,11 +16,11 @@ public abstract class Stall implements IReviewed {
 
 
         public String getName(){
-            return this.name;
+            return name;
         }
 
         public int getRating(){
-            return this.rating();
+            return rating;
         }
 
 }

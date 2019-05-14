@@ -1,4 +1,3 @@
-//import java.util.ArrayList;
 
 public class ThemePark {
 
@@ -7,5 +6,9 @@ public class ThemePark {
 
     public ThemePark(String name){
         this.name = name;
+    }
+
+    public String getName(){
+        return name;
     }
 }

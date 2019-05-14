@@ -2,7 +2,7 @@
 public class ThemePark {
 
     private String name;
-//    private ArrayList<IReviewed>();
+//    private ArrayList<Stalls.Stall.IReviewed>();
 
     public ThemePark(String name){
         this.name = name;

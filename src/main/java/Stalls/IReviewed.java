@@ -1,3 +1,5 @@
+package Stalls;
+
 public interface IReviewed {
 
     public String getName();

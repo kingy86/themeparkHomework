@@ -13,4 +13,11 @@ public abstract class Stall {
         this.parkingSpace = parkingSpace;
         this.rating = rating;
     }
+
+    public static interface IReviewed {
+
+        public String getName();
+
+        public int getRating();
+    }
 }

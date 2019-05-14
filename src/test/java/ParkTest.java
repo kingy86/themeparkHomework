@@ -17,4 +17,9 @@ public class ParkTest {
     public void hasName(){
         assertEquals("Woodland Playground", park.getName());
     }
+
+    @Test
+    public void hasRating(){
+        assertEquals(7, park.getRating());
+    }
 }

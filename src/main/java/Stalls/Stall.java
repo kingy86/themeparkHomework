@@ -1,6 +1,6 @@
 package Stalls;
 
-public abstract class Stall {
+public abstract class Stall implements IReviewed {
 
     private String name;
     private String ownerName;
@@ -14,10 +14,13 @@ public abstract class Stall {
         this.rating = rating;
     }
 
-    public static interface IReviewed {
 
-        public String getName();
+        public String getName(){
+            return this.name;
+        }
 
-        public int getRating();
-    }
+        public int getRating(){
+            return this.rating();
+        }
+
 }

@@ -17,4 +17,9 @@ public class CandyFlossStandTest {
     public void hasName(){
         assertEquals("So Fluffy", candyFlossStand.getName());
     }
+
+    @Test
+    public void hasRating(){
+        assertEquals(6, candyFlossStand.getRating());
+    }
 }
